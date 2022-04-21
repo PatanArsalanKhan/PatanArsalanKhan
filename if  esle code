@@ -1,0 +1,63 @@
+#include<stdio.h>
+
+int main()
+{
+   float maths,physics,chemistry,avg;
+   printf("Enter your maths marks: \n");
+   
+                                          scanf("%f",&maths);
+                                          
+   printf("Enter your physics marks: \n");
+   
+                                           scanf("%f",&physics); 
+                                           
+                                           
+   printf("Enter your chemistry marks: \n");
+   
+                                           scanf("%f",&chemistry);
+                                          
+   avg=(maths+physics+chemistry)/3;
+                                         if (avg>90)
+                                         
+                                       {
+                                         
+                                          printf("Excellent\n");
+                                          
+                                       }  
+else if (avg>=70  &&  avg<=90)
+                                       {
+                                          
+                                          printf("Very Good\n");
+                                       
+                                          
+                                       }   
+                                       
+else if (avg>=50  &&   avg<70) 
+                                       {
+                                          
+                                       printf("Good\n");
+                                       
+                                          
+                                       }                                          
+                                          
+else  if (avg>=35  &&   avg<50)
+                                       
+                                       { 
+                                          
+                                          printf("Average\n");
+                                       
+                                          
+                                       }
+       
+          
+ else                                  {
+    
+    
+                                         printf("Fail\n");
+    
+                                        } 
+         
+          
+   return 0;
+   
+}
